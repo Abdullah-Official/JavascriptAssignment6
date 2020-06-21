@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter #31-34</title>
+</head>
+<body>
+    <script>
+        // Question 1 
+        // var time = new Date();
+        // document.write(time);
+
+        // Question 2 
+        // mlist = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ];
+        // var now = new Date();
+        // var theMonth = now.getMonth();
+        // var nameOfMonth =  mlist[theMonth];
+        // alert("Current Month: " + nameOfMonth);
+        
+        // Question 3 
+        // var day = new Date();
+        // var print = day.toString();
+        // var extract = print.slice(0,4);
+        // alert("Today is " + extract);
+              
+            // Question 4 \
+            
+        //    var days = ["Sunday","Monday","Tuesday","Wednesday","Thurday","Friday","Saturday"];
+        //    var b = new Date();
+        //    var a = b.getDay();
+        //    if((a == days[0]) || (a==days[6])){
+        //        alert("Its  fun day!")
+        //    }else {
+        //        alert("Its not funday")
+        //    }
+
+        // Question 5 
+        // var b = new Date();
+        // var a = b.getDate();
+        // if(a <16){
+        //     alert("first fifteen Days of month");
+        // }else {
+        //     alert("Last days of month");
+        // }
+
+        // Question 6 
+        // var d = new Date();
+// var time = d.getTime();
+// document.write("Current Date :" + " " + d + "<br>")
+// document.write("Elapsed MilliSeconds Since Midnight Jan 1,1970:" + " " + time + "<br>");
+// var minutes = 1000 * 60;
+// var hours = minutes * 60;
+// var t = d.getTime();
+// var y = Math.round(t / minutes);
+// document.write("Elapsed Minuites Since Midnight Jan 1,1970:" + " " + minutes);
+
+// Question 7
+// var d = new Date();
+// var v = d.toString();
+// var a = v.slice(15.24);
+// var b = a.slice(0,8)
+// var c = b.slice(0,3);
+// if(c > 12){
+//     document.write("ITS PM");
+// }else{
+//     document.write("ITS AM")
+// }
+
+// Question 8 
+
+// var d = new Date(2020, 4, 31);
+// document.write("Later Date: " + d)
+
+// Question 9 
+
+//     var date1 = new Date(); 
+// var date2 = new Date(2020,4,22); 
+// var Difference_In_Time = date1.getTime() - date2.getTime(); 
+// var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24*); 
+// document.write(Math.floor( Difference_In_Days) + " days have passed since 1st Ramdan, 2020" ); 
+
+// Question 10 
+// var date1 = new Date(2015,11,5,22,50,16); 
+// var date2 = new Date(2015,0,1,00,00,00); 
+// var Difference_In_Time = date1.getTime() - date2.getTime(); 
+// var Difference_In_Seconds = Difference_In_Time / (1000); 
+// document.write("On reference date " + date1 + " " + Math.floor(Difference_In_Seconds) + " seconds had passed since beginning of 2015.");
+
+// Question 11 
+// var date1 = new Date();
+// var a = date1.getHours()
+// var b = date1.getMinutes()
+// var c = date1.getSeconds();
+// var date2 = new Date(2020,5,19,a-1,b,c);
+// document.write("Current Date: " + date1);
+// document.write("<br>");
+// document.write("1 hour ago, it was " + date2);
+
+// Question 12 
+// var date = new Date();
+// var date1 = new Date();
+// a = date1.setFullYear(1920);
+// document.write("current date: " + date + "<br>")
+// document.write("100 year back, it was " + date1);
+
+// Question 13 
+// var input = prompt("Enter your age?");
+// var date = new Date();
+// var year = date.getFullYear();
+// var age = year - input;
+// document.write("Your age is " + input);
+// document.write("<br>");
+// document.write("Your Birth year is " + age);
+
+// Question 14 
+// var customerName = "ABC Customer";
+// var date = new Date();
+// var month = "Feburary";
+// var noc = 410;
+// var cpc = 16;
+// var Late = 350;
+// var Tnoc = noc*cpc;
+// var gross = Tnoc + Late;
+// document.write("<h1>K-Electric Bill</h1>");
+// document.write("<br>");
+// document.write("Customer Name: " + customerName + "<br>");
+// document.write("Month: " + month + "<br>");
+// document.write("Number of units: " + noc + "<br>");
+// document.write("Charges per unit: " + cpc + "<br>");
+// document.write("<br>");
+// document.write("Net Amount Payable (with in Due Date): " + Tnoc + "<br>");
+// document.write("Late payment surcharge: " + Late + "<br>");
+// document.write("Gross Amount Payable (after Due Date): " + gross);
+
+
+</script>
+</body>
+</html>
